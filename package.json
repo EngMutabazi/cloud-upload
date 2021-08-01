@@ -1,0 +1,30 @@
+{
+  "name": "cloud-upload",
+  "version": "1.0.0",
+  "description": "uploading multiple images to cloudinary",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engmutabazi100/cloud-upload.git"
+  },
+  "author": "Mutabazi Elyse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engmutabazi100/cloud-upload/issues"
+  },
+  "homepage": "https://github.com/engmutabazi100/cloud-upload#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.26.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
